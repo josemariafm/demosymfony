@@ -1,0 +1,6 @@
+test_homepage:
+    path:     /test/
+    defaults: { _controller: TestBundle:Default:index }
+texto_page:
+    path:     /texto/{libro}
+    defaults: { _controller: TestBundle:Default:texto }
